@@ -9,7 +9,6 @@ h1{
     padding: 10px;
     margin: 0 20% 0 20%;
     font-family: 'Arial Black', sans-serif ;
-
 }
 
 
@@ -47,6 +46,18 @@ main{
     padding-top: 2%;
     padding-bottom: 2%;
     font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.h2_der{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 2%;
+}
+
+#presentacion{
+    text-align: justify;
+    font-size: x-large;
 }
 
 li {
@@ -93,18 +104,7 @@ progress{
     /*padding-left: 2%;float: right;*/
 }
 
-.h2_der{
-    color: black;
-    text-align: center;
-    text-transform: uppercase;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
 
-#presentacion{
-    text-align: justify;
-    font-size: x-large;
-}
 
 
 footer{
