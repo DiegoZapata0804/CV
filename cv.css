@@ -1,0 +1,125 @@
+header{
+    background-color: rgb(61, 61, 61);
+    text-align: center;
+    padding: 2%;
+}
+
+h1{
+    border: 7px solid white;
+    padding: 10px;
+    margin: 0 20% 0 20%;
+    font-family: 'Arial Black', sans-serif ;
+
+}
+
+
+body{
+    background-color: white;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+main{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items:initial;
+}
+
+#foto_perfil{
+    width: 100%;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.ladoizq{
+    background-color: rgb(90, 90, 90);
+    width: 35%;
+    float: left;
+    font-size:large;
+    /*margin: 0 auto;*/
+}
+
+.h2_izq{
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+li {
+    list-style: none;
+    /* background-image: url("https://e7.pngegg.com/pngimages/416/490/png-clipart-computer-icons-baby-stork-stork-animals-monochrome-thumbnail.png");*/
+	background-repeat: no-repeat;
+    background-size: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+.li_head{
+    padding: 0%;
+
+}
+
+.li_edu {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/2421/2421033.png");
+    background-size: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0.5%;
+}
+
+progress{
+    width:100%;
+    border-radius: 10px;
+}
+
+.hobbies{
+    display: inline;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2%;
+}
+
+.ladoder{
+    /*background-color: rgba(30, 255, 0, 0.415);*/
+    width: 60%;
+    margin: 0 auto;
+    font-size:large;
+    /*padding-left: 2%;float: right;*/
+}
+
+.h2_der{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#presentacion{
+    text-align: justify;
+    font-size: x-large;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/*
+style="background-image: url(imgs/ciguena.png)"
+background-size: 20%;
+padding: 0px 0px 0px 0px;
+style="list-style-image: url(imgs/ciguena.png)"
+
+img{
+    width:30%;
+}
+*/
