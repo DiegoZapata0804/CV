@@ -52,7 +52,7 @@ main{
     color: black;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 2%;
+    padding-top: 1%;
 }
 
 #presentacion{
@@ -71,8 +71,10 @@ li {
 }
 
 .li_head{
-    padding: 0%;
-
+    background-size: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
 }
 
 .li_edu {
@@ -104,22 +106,8 @@ progress{
     /*padding-left: 2%;float: right;*/
 }
 
-
-
-
 footer{
     display: flex;
     justify-content: space-around;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-
-/*
-style="background-image: url(imgs/ciguena.png)"
-background-size: 20%;
-padding: 0px 0px 0px 0px;
-style="list-style-image: url(imgs/ciguena.png)"
-
-img{
-    width:30%;
-}
-*/
